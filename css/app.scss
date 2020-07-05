@@ -8,9 +8,6 @@ $mq-large: 800px;
 $mq-medium: 600px;
 
 
-@mixin drop-shadow($color) {
-    box-shadow: 0 0 10px $color;
-}
 
 @mixin mq ($width) {
     @media (max-width: $width) {
@@ -46,7 +43,7 @@ section {
         
     p {
         margin: 24px 0 0 0;
-        // @include drop-shadow(blue)
+    
     }
 }
 
